@@ -2,11 +2,11 @@
   "packageRules": [
     {
       "matchNewValue": "<19",
-      "addLabels": "18+"
+      "addLabels": ["18+"]
     },
     {
       "matchNewValue": ">19",
-      "addLabels": "19+"
+      "addLabels": ["19+"]
     }
   ],
   "prHourlyLimit": 10
