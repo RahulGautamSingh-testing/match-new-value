@@ -1,11 +1,11 @@
 {
   "packageRules": [
     {
-      "matchNewValue": "<19",
+      "matchNewValue": "/<19/",
       "addLabels": ["18+"]
     },
     {
-      "matchNewValue": ">19",
+      "matchNewValue": "/>19/",
       "addLabels": ["19+"]
     }
   ],
