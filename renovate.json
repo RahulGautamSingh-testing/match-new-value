@@ -1,12 +1,16 @@
 {
   "packageRules": [
     {
-      "matchNewValue": "/<19/",
+      "matchNewValue": "/^18/",
       "addLabels": ["18+"]
     },
     {
-      "matchNewValue": "/>19/",
+      "matchNewValue": "/^19/",
       "addLabels": ["19+"]
+    },
+     {
+      "matchNewValue": "/^20/",
+      "addLabels": ["20+"]
     }
   ],
   "prHourlyLimit": 10
